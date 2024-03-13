@@ -1,0 +1,28 @@
+.container {
+  padding: 64px 80px 64px 80px;
+}
+.searchSite {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border-radius: 20px;
+  border: 1.5px solid #d4defe;
+  background-color: white;
+  padding-right: 10px;
+  margin-bottom: 32px;
+  justify-content: space-between;
+}
+.input {
+  border: none;
+  background-color: white;
+  padding-left: 10px;
+}
+.usersList {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 25px;
+  padding-left: 0px;
+}
+.usersList li {
+  list-style-type: none;
+}
